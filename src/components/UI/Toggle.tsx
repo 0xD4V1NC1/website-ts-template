@@ -13,10 +13,7 @@ const Toggle = ({option, setOption, options, option1Text, option2Text, toggleCol
       setOption(options[1]);
     }
   }, [toggle]);
-  console.log('option: ', option);
-  console.log('options array: ', options);
-  console.log('options[0]: ', options[0]);
-  console.log('options[1]: ', options[1]);
+
   return (
     <div className="mt-2 flex items-center justify-center w-full">
       <div className="mr-1 md:mr-2.5">{option1Text}</div>
