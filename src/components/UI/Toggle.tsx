@@ -1,9 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {ToggleInterface} from '../../interfaces/ToggleInterface';
-/**
-Plan toggle button. Toggle between annual and monthly plans.
- */
-// @TODO not done
+
 const Toggle = ({option, setOption, options, option1Text, option2Text, toggleColor, toggleBgColor}: ToggleInterface) => {
   const [toggle, setToggle] = useState(true);
   useEffect(() => {
